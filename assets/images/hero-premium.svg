@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Hero placeholder">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#132039"/>
+      <stop offset="1" stop-color="#f26d4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#g1)"/>
+  <circle cx="1100" cy="220" r="170" fill="#ffffff22"/>
+  <circle cx="220" cy="700" r="220" fill="#ffffff18"/>
+  <path d="M0 660 L250 520 L420 610 L620 440 L840 570 L1080 430 L1400 620 L1400 900 L0 900 Z" fill="#ffffff2c"/>
+  <text x="80" y="120" font-family="Inter, Arial, sans-serif" font-size="42" fill="#ffffff" font-weight="700">TODO: Replace with your real hero photo</text>
+</svg>

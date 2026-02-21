@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Hero slide 5 placeholder">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff884c"/><stop offset="1" stop-color="#9345ff"/></linearGradient></defs>
+  <rect width="1400" height="900" fill="url(#g)"/>
+  <path d="M0 690 L180 560 L320 620 L470 510 L650 590 L840 470 L1020 560 L1210 450 L1400 560 L1400 900 L0 900 Z" fill="#ffffff40"/>
+  <text x="80" y="120" font-family="Inter, Arial, sans-serif" font-size="44" fill="#fff" font-weight="700">TODO: Hero Slide 5 - Replace with real travel photo</text>
+</svg>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Annapurna Tourism packages – Family holidays, school and college tours, corporate offsites across India.">
+  <title>Packages – Annapurna Tourism</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a href="index.html" class="site-logo">Annapurna Tourism</a>
+      <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="packages.html" aria-current="page">Packages</a></li>
+          <li><a href="dates.html">Dates</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="contact.html" class="btn btn-primary">Enquiry</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" aria-labelledby="packages-heading">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="packages-heading">Tour Packages</h2>
+          <p>Choose from family getaways, educational trips, or corporate offsites. All packages can be customised.</p>
+        </div>
+
+        <div class="filter-tabs" role="tablist" aria-label="Package type">
+          <button type="button" role="tab" aria-selected="true" aria-controls="panel-family" id="tab-family" data-filter="family">Family</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="panel-school" id="tab-school" data-filter="school">School & College</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="panel-corporate" id="tab-corporate" data-filter="corporate">Corporate</button>
+        </div>
+
+        <!-- Family packages -->
+        <div id="panel-family" role="tabpanel" aria-labelledby="tab-family" class="package-panel" data-type="family">
+          <div class="packages-grid">
+            <!-- TODO: Replace package details, prices, and images in /assets/images/packages/ -->
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Kashmir family tour" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">Family</span>
+                <h3 class="card-title">Kashmir Family Escape</h3>
+                <p class="package-meta">5D / 4N · Kashmir</p>
+                <p class="package-price">From ₹24,999 / person</p>
+                <ul class="package-highlights">
+                  <li>Flights + accommodation</li>
+                  <li>Dal Lake houseboat stay</li>
+                  <li>Gulmarg & Pahalgam</li>
+                  <li>All meals included</li>
+                </ul>
+                <a href="itinerary.html?tour=kashmir" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Kerala family tour" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">Family</span>
+                <h3 class="card-title">Kerala Backwaters & Hills</h3>
+                <p class="package-meta">6D / 5N · Kerala</p>
+                <p class="package-price">From ₹28,500 / person</p>
+                <ul class="package-highlights">
+                  <li>Houseboat + resort stay</li>
+                  <li>Munnar tea estates</li>
+                  <li>Alleppey backwaters</li>
+                  <li>Breakfast & dinner</li>
+                </ul>
+                <a href="itinerary.html?tour=kerala" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Rajasthan family tour" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">Family</span>
+                <h3 class="card-title">Rajasthan Heritage Trail</h3>
+                <p class="package-meta">7D / 6N · Rajasthan</p>
+                <p class="package-price">From ₹32,000 / person</p>
+                <ul class="package-highlights">
+                  <li>Jaipur, Udaipur, Jodhpur</li>
+                  <li>Fort & palace visits</li>
+                  <li>Desert camp (optional)</li>
+                  <li>AC transport & guide</li>
+                </ul>
+                <a href="itinerary.html?tour=rajasthan" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Goa family tour" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">Family</span>
+                <h3 class="card-title">Goa Beach & Culture</h3>
+                <p class="package-meta">4D / 3N · Goa</p>
+                <p class="package-price">From ₹18,999 / person</p>
+                <ul class="package-highlights">
+                  <li>Beach resort stay</li>
+                  <li>Old Goa heritage</li>
+                  <li>Dudhsagar option</li>
+                  <li>Breakfast included</li>
+                </ul>
+                <a href="itinerary.html?tour=goa" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- School & College packages -->
+        <div id="panel-school" role="tabpanel" aria-labelledby="tab-school" class="package-panel" data-type="school" hidden>
+          <div class="packages-grid">
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Rajasthan educational tour" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">School & College</span>
+                <h3 class="card-title">Rajasthan Educational Tour</h3>
+                <p class="package-meta">5D / 4N · Jaipur, Pushkar, Ajmer</p>
+                <p class="package-price">From ₹12,500 / person</p>
+                <ul class="package-highlights">
+                  <li>Curriculum-linked visits</li>
+                  <li>Dedicated escort & safety</li>
+                  <li>Budget-friendly stays</li>
+                  <li>All meals</li>
+                </ul>
+                <a href="itinerary.html?tour=rajasthan" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Darjeeling educational tour" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">School & College</span>
+                <h3 class="card-title">Darjeeling & Sikkim Discovery</h3>
+                <p class="package-meta">6D / 5N · Darjeeling, Gangtok</p>
+                <p class="package-price">From ₹15,999 / person</p>
+                <ul class="package-highlights">
+                  <li>Tea garden & toy train</li>
+                  <li>Tsomgo Lake, monasteries</li>
+                  <li>Group-friendly hotels</li>
+                  <li>All meals & transport</li>
+                </ul>
+                <a href="itinerary.html?tour=darjeeling" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Goa college tour" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">School & College</span>
+                <h3 class="card-title">Goa College Trip</h3>
+                <p class="package-meta">4D / 3N · Goa</p>
+                <p class="package-price">From ₹9,999 / person</p>
+                <ul class="package-highlights">
+                  <li>Beach & heritage mix</li>
+                  <li>Safe, group accommodation</li>
+                  <li>Activities included</li>
+                  <li>Escort throughout</li>
+                </ul>
+                <a href="itinerary.html?tour=goa" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Corporate packages -->
+        <div id="panel-corporate" role="tabpanel" aria-labelledby="tab-corporate" class="package-panel" data-type="corporate" hidden>
+          <div class="packages-grid">
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Goa corporate offsite" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">Corporate</span>
+                <h3 class="card-title">Goa Corporate Offsite</h3>
+                <p class="package-meta">3D / 2N · Goa</p>
+                <p class="package-price">From ₹22,000 / person</p>
+                <ul class="package-highlights">
+                  <li>Resort with meeting space</li>
+                  <li>Team activities & dinners</li>
+                  <li>AV & logistics support</li>
+                  <li>Customisable agenda</li>
+                </ul>
+                <a href="itinerary.html?tour=goa" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Rajasthan corporate retreat" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">Corporate</span>
+                <h3 class="card-title">Rajasthan Palace Retreat</h3>
+                <p class="package-meta">4D / 3N · Udaipur / Jaipur</p>
+                <p class="package-price">From ₹35,000 / person</p>
+                <ul class="package-highlights">
+                  <li>Heritage property stay</li>
+                  <li>Conference + cultural events</li>
+                  <li>Premium transport</li>
+                  <li>Gala dinner option</li>
+                </ul>
+                <a href="itinerary.html?tour=rajasthan" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+            <article class="package-card">
+              <img src="assets/images/placeholder-dest.svg" alt="Kerala corporate offsite" class="card-image">
+              <div class="card-body">
+                <span class="package-badge">Corporate</span>
+                <h3 class="card-title">Kerala Resort Offsite</h3>
+                <p class="package-meta">3D / 2N · Kumarakom / Thekkady</p>
+                <p class="package-price">From ₹28,000 / person</p>
+                <ul class="package-highlights">
+                  <li>Resort with meeting rooms</li>
+                  <li>Backwater / nature activities</li>
+                  <li>All meals & refreshments</li>
+                  <li>Flexible scheduling</li>
+                </ul>
+                <a href="itinerary.html?tour=kerala" class="btn btn-primary">View Itinerary</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <p class="package-disclaimer">Prices vary by season, group size, and inclusions. Contact us for a custom quote.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <a href="index.html" class="footer-brand">Annapurna Tourism</a>
+          <p>Your trusted travel partner for family, school, and corporate tours across India.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="dates.html">Dates</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="rules.html">Rules</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>India</p>
+          <a href="tel:+919876543210">+91 98765 43210</a>
+          <a href="mailto:info@annapurnatourism.com">info@annapurnatourism.com</a>
+          <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <p>Placeholder for social icons</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Annapurna Tourism. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/packages.js"></script>
+</body>
+</html>
